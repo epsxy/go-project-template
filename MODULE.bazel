@@ -1,0 +1,13 @@
+###############################################################################
+# Following bzlmod docs from here:
+# https://github.com/bazel-contrib/rules_go/blob/master/docs/go/core/bzlmod.md
+###############################################################################
+
+## MODULE.bazel
+module(
+    name = "go-project-template",
+    repo_name = "com_epsxy_go_project_template",
+)
+
+bazel_dep(name = "rules_go", version = "0.39.1")
+bazel_dep(name = "gazelle", version = "0.31.0")
