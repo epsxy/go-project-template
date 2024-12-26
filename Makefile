@@ -1,4 +1,5 @@
-
+run:
+	bazel run //:go-project-template
 gazelle:
 	bazel run //:gazelle
 tidy:
