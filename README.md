@@ -1,7 +1,13 @@
 # go-project-template
 My own private template for Go-based github repositories
 
-## Instructions
+## Protobuf
 
-1. Change gazelle repo path in BUILD.bazel
-1. Change module name in MODULE.bazel
+```
+# install buf
+brew install bufbuild/buf/buf
+# use buf
+buf lint
+buf build
+buf generate
+```

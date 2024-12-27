@@ -1,10 +1,10 @@
 .PHONY: deploy
 
 run:
-	go run main.go
+	go run cmd/main.go
 
 build:
-	go build -o ./bin/out.exe main.go
+	go build -o ./bin/out.exe cmd/main.go
 
 test:
 	echo 'not_implemented'
